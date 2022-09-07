@@ -1,0 +1,48 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+/*------Nav-Bar-------*/
+.nav-logo h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #5fcf80;
+
+}
+.buttn{
+    border-radius: 20px;
+    color: white;
+    background: #5fcf80;
+}
+
+/*-----HERO SECTION-----*/
+
+.hero-section{
+    background-image: url(../img/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hero-row{
+ height: auto;
+}
+
+.hero-bttn{
+    width: 15%;
+    padding: 10px 25px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    background: red;
+}
+.hero-heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffff
+    ;
+}
+.hero-para{
+    color: #ffff;
+    font-weight:100 ;
+}
