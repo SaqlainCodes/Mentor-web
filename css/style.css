@@ -46,3 +46,65 @@ box-sizing: border-box;
     color: #ffff;
     font-weight:100 ;
 }
+
+/*-----Volunteer------*/
+
+.icon-row{
+    display: flex;
+}
+.icon-col{
+     font-size: 20px;
+    color: #5fcf80;
+}
+.img-col{
+ height: 70vh;
+}
+
+/*------------Counting-Section--------*/
+
+.counting-section{
+    background:#f6f7f6 ;
+}
+.counting-row{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+
+}
+.counting-row h3{
+    color: #5fcf80;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+/*-------Cards-section-------*/
+.mentor-b0x{
+    background-color: #5fcf80;
+    color: #ffff;
+}
+.mentor-bttn{
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: #7fd999;
+    border: none;
+    color: white;
+}
+.cards-icon{
+    text-align: center;
+    border: 1px solid red;
+    justify-content: center;
+}
+
+.icon-bg{
+    color: #5fcf80;
+    border: 1px solid orange;
+    padding: 20px 40px;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 50px;
+    font-size: 40px;
+}
