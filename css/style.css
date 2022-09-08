@@ -1,7 +1,9 @@
-*{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 /*------Nav-Bar-------*/
@@ -15,6 +17,10 @@ box-sizing: border-box;
     border-radius: 20px;
     color: white;
     background: #5fcf80;
+}
+
+.nav-hover:hover{
+    background-color: #5fcf80;
 }
 
 /*-----HERO SECTION-----*/
@@ -32,9 +38,9 @@ box-sizing: border-box;
     width: 15%;
     padding: 10px 25px;
     color: white;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 20px;
-    background: red;
+    background-color: transparent;
 }
 .hero-heading{
     font-size: 40px;
@@ -91,20 +97,34 @@ box-sizing: border-box;
     border: none;
     color: white;
 }
+
+.cards-column{
+    display: flex;
+    justify-content: space-between;
+    
+}
 .cards-icon{
     text-align: center;
-    border: 1px solid red;
+    border: 1px solid #eef0ef;
     justify-content: center;
+}
+.icons-w{
+    padding: 20px 20px;
+    background-color: #ecf9f0;
+    border-radius: 50%;
+    color: #5fcf80;
+    font-size: 30px;
 }
 
 .icon-bg{
+    /*
     color: #5fcf80;
     border: 1px solid orange;
-    padding: 20px 40px;
+    background: #ecf9f0;
+    padding: 30px 30px;
     border-radius: 50%;
     display: flex;
     text-align: center;
     justify-content: center;
-    width: 50px;
-    font-size: 40px;
+    font-size: 40px;---*/
 }
