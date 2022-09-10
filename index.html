@@ -28,7 +28,7 @@
   </head>
   <body>
     <!---Nav-Bar---->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light main-nav">
       <div class="container">
         <a class="navbar-brand nav-logo" href="#"><h1>MENTOR</h1></a>
         <button
@@ -44,24 +44,24 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
-            <li class="nav-item nav-hover">
+            <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item nav-hover">
+            <li class="nav-item">
               <a class="nav-link active" href="#">About</a>
             </li>
 
-            <li class="nav-item nav-hover">
+            <li class="nav-item">
               <a class="nav-link active" href="#">Courses</a>
             </li>
 
-            <li class="nav-item nav-hover">
+            <li class="nav-item">
               <a class="nav-link active" href="#">Trainers</a>
             </li>
-            <li class="nav-item nav-hover">
+            <li class="nav-item">
               <a class="nav-link active" href="#">Events</a>
             </li>
-            <li class="nav-item nav-hover">
+            <li class="nav-item">
               <a class="nav-link active" href="#">Pricing</a>
             </li>
 
@@ -116,8 +116,8 @@
       </div>
     </section>
 
-    <!----Volunteer section-->
-    <section>
+    <!----About section-->
+    <section id="About">
       <div class="container">
         <div class="row pt-5">
           <div class="col-md-6">
@@ -201,20 +201,20 @@
     </section>
 
     <!----Card section----->
-    <section class="card-section">
+    <section class="card-section" id="cards-sec">
       <div class="container">
         <div class="row pt-5">
-          <div class="col-md-3 px-0">
+          <div class="col-md-4 px-0 pt-3">
             <div class="mentor-b0x mb-4">
-              <h3 class="pt-4 px-4">Why Choose Mentor?</h3>
-              <p class="px-4">
+              <h3 class="pt-4 px-4 mentor-heading">Why Choose Mentor?</h3>
+              <p class="px-4 pt-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores debitis consectetur, ullam eveniet dolore delectus
                 amet sint expedita tempore ipsam nobis repudiandae sit,
                 explicabo culpa qui vero ratione provident at dolorem enim cum?
                 Voluptates tempora, dignissimos impedit vero totam mollitia?
               </p>
-              <button class="mentor-bttn mx-5 mb-4">
+              <button class="mentor-bttn mx-5 mb-5 mt-4">
                 Learn More
                 <span class="px-1">
                   <i class="fa-sharp fa-solid fa-angle-right"></i>
@@ -224,7 +224,7 @@
           </div>
           <!-----Cards section start---->
 
-          <div class="col-md-9 cards-column">
+          <div class="col-md-8 cards-column">
             <div class="col-md-4 mx-2 pt-5">
               <div class="cards-icon pt-5">
                 <div class="icon-bg mx-5">
@@ -279,6 +279,228 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----Popular Courses---->
+    <section class="popular-courses">
+      <div class="container">
+        <h5 class="pt-5">
+          Courses
+          <span></span>
+        </h5>
+        <h2>Popular Courses</h2>
+
+        <!----Cards Row start-->
+
+        <div class="row pt-5 pb-5">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="img/course-1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div class="bttn-rate">
+                  <button class="web-bttn">Web Development</button>
+                  <h2>$169</h2>
+                </div>
+                <h2 class="pt-3">Website Design</h2>
+                <p class="pt-2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
+                  ex qui in!
+                </p>
+              </div>
+
+              <div class="card-body">
+                <div class="user-info">
+                  <div class="col-md-2 user-name">
+                    <img
+                      src="img/testimonials/testimonials-1.jpg"
+                      class="img-fluid img-border"
+                    />
+                    <span>antonio</span>
+                  </div>
+
+                  <div class="social-reactions">
+                    <div class="reaction-box">
+                      <i class="fa-regular fa-user"></i>
+                      <span class="reactions">50</span>
+
+                      <i class="fa-regular fa-heart"></i>
+                      <span>65</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="img/course-2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div class="bttn-rate">
+                  <button class="web-bttn">Web Development</button>
+                  <h2>$169</h2>
+                </div>
+                <h2 class="pt-3">Website Design</h2>
+                <p class="pt-2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
+                  ex qui in!
+                </p>
+              </div>
+
+              <div class="card-body">
+                <div class="user-info">
+                  <div class="col-md-2 user-name">
+                    <img
+                      src="img/testimonials/testimonials-1.jpg"
+                      class="img-fluid img-border"
+                    />
+                    <span>antonio</span>
+                  </div>
+
+                  <div class="social-reactions">
+                    <div class="reaction-box">
+                      <i class="fa-regular fa-user"></i>
+                      <span class="reactions">50</span>
+
+                      <i class="fa-regular fa-heart"></i>
+                      <span>65</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img src="img/course-3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <div class="bttn-rate">
+                  <button class="web-bttn">Web Development</button>
+                  <h2>$169</h2>
+                </div>
+                <h2 class="pt-3">Website Design</h2>
+                <p class="pt-2">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
+                  ex qui in!
+                </p>
+              </div>
+
+              <div class="card-body">
+                <div class="user-info">
+                  <div class="col-md-2 user-name">
+                    <img
+                      src="img/testimonials/testimonials-1.jpg"
+                      class="img-fluid img-border"
+                    />
+                    <span>antonio</span>
+                  </div>
+
+                  <div class="social-reactions">
+                    <div class="reaction-box">
+                      <i class="fa-regular fa-user"></i>
+                      <span class="reactions">50</span>
+
+                      <i class="fa-regular fa-heart"></i>
+                      <span>65</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!---cards row ends----->
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img
+                src="img/trainers/trainer-1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-heading text-center">Walter White</h3>
+                <h6 class="text-center">Web Development</h6>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="social-icons text-center">
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img
+                src="img/trainers/trainer-2.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-heading text-center">Walter White</h3>
+                <h6 class="text-center">Web Development</h6>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="social-icons text-center">
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+              <img
+                src="img/trainers/trainer-3.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h3 class="card-heading text-center">Walter White</h3>
+                <h6 class="text-center">Web Development</h6>
+                <p class="card-text text-center">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <div class="social-icons text-center">
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-facebook"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-linkedin"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
         </div>
       </div>
     </section>
